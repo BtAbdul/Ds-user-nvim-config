@@ -17,7 +17,7 @@ function Clone-Repository {
 
 # Main script
 $NvChadRepo = "https://github.com/NvChad/NvChad.git"
-$NvChadConfig = "$env:LOCALAPPDATA\nvim"
+$NvChadConfig = "$env:LOCALAPPDATA\NvChad"
 $ConfigRepo = "https://github.com/Alexis12119/nvim-config.git"
 
 # Check if a Neovim configuration already exists
